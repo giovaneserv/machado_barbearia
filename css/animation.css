@@ -1,0 +1,42 @@
+@keyframes headerH1-moverParaDireita{
+    0% {
+        opacity: 0;
+        transform: translateX(-95px);
+    }
+    75% {
+        transform: translateX(5px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes headerH2-moverParaEsquerda {
+    0% {
+        opacity: 0;
+        transform: translateX(95px);
+    }
+    75% {
+        transform: translateX(-5px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes imgGetBigger {
+    0%{
+        opacity: 0;
+        width: 200px;
+        transform: translateX(95px);
+    }
+    75% {
+        overflow: auto;
+        width: 120px;
+        transform: translateX(-5px);
+    }
+    100% {
+        opacity: 1;
+        width: 120px;
+    }
+}

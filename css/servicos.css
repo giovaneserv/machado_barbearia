@@ -1,0 +1,23 @@
+.servicos {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 3rem;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.servicos h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.servicos img {
+    margin-left: 50px;
+}
+
+.servicos img:hover {
+    transform: scale(1.1);
+}
+
+    
